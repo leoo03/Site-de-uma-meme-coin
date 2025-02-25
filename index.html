@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebCoin iCash</title>
+
+    <!-- link bootstrap css file -->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+
+    <!-- link bootstrap icons -->
+    <link rel="stylesheet" href="./bootstrap/icons/font/bootstrap-icons.css">
+</head>
+
+<body">
+    <!-- Barra de Navegação -->
+    <nav class="navbar bg-warning navbar-expand-md py-3 sticky-top">
+
+        <div class="container-fluid">
+
+            <!-- brand -->
+            <a href="#home" class="navbar-brand d-flex align-items-center p-1 border rounded border-dark">
+                <!-- icon -->
+                <i class="bi bi-currency-bitcoin fs-3 me-1"></i>
+                <span class="text-black fw-bold me-1">WebCoin</span>iCash</a>
+
+            <!-- Botão Menu -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- itens de menu -->
+            <div class="collapse navbar-collapse justify-content-end" id="navBarMenu">
+
+                <ul class="navbar-nav text-center d-flex align-items-center text-uppercase">
+
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#desenvolvimento" class="nav-link">Desenvolvimento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#adquirir" class="nav-link">Adquirir</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#bonus" class="nav-link">Bônus</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#feedback" class="nav-link">Feedback</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#equipe" class="nav-link">Equipe</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav> <!-- Fim NavBar -->
+
+    <!-- Seção Home -->
+    <section id="home">
+
+        <div class="container mt-5">
+
+            <!-- grid system -->
+            <div class="row py-5">
+
+                <div class="col">
+
+                    <div class="carousel slide " data-bs-ride="carousel" id="ads">
+
+                        <!-- Exibindo os indicadores dos slides do carousel -->
+                        <div class="carousel-indicators">
+                            <button class="active" data-bs-target="#ads" data-bs-slide-to="0"></button>
+                            <button class="" data-bs-target="#ads" data-bs-slide-to="1"></button>
+                            <button class="" data-bs-target="#ads" data-bs-slide-to="2"></button>
+                        </div>
+
+                        <!-- Armazena os slides que serão exibidos no carousel -->
+                        <div class="carousel-inner">
+
+                            <!-- Obs.: alterar fotos para fotos do projeto -->
+                            <div class="carousel-item active" data-bs-interval="3000">
+                                <img src="./img/slide1.jpg" alt="" class="d-block w-100">
+
+                                <!-- Textos Sobre as Imagens do Carousel -->
+                                <div class="carousel-caption d-none d-md-block">
+
+                                    <h1>Descubra seu lado Investidor!</h1>
+
+                                    <p> Pré-registre-se agora e seja um dos primeiros a experimentar
+                                        a maior piada da internet!
+                                    </p>
+
+                                </div>
+
+
+                            </div>
+
+                            <div class="carousel-item" data-bs-interval="4000">
+                                <img src="./img/slide2.jpg" alt="" class="d-block w-100">
+
+                                <!-- Textos Sobre as Imagens do Carousel -->
+                                <div class="carousel-caption d-none d-md-block">
+
+                                    <h1>WebCoin - A Moeda que Vai Revolucionar o Mundo!</h1>
+
+                                    <p> Pré-registre-se agora e seja um dos primeiros a experimentar
+                                        a maior piada da internet!</p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="./img/slide3.jpg" alt="" class="d-block w-100">
+
+                                <!-- Textos Sobre as Imagens do Carousel -->
+                                <div class="carousel-caption d-none d-md-block">
+
+                                    <h1> WebCoin - A Moeda que Vai Revolucionar o Mundo!</h1>
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Botões de Retroceder e Avançar os Slides -->
+                        <button class="carousel-control-prev" data-bs-target="#ads" data-bs-slide="prev"><span
+                                class="carousel-control-prev-icon"></span></button>
+
+                        <button class="carousel-control-next" data-bs-target="#ads" data-bs-slide="next"><span
+                                class="carousel-control-next-icon"></span></button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Seção Desenvolvimento -->
+    <section id="desenvolvimento" class="bg-secondary-subtle py-3 mt-5">
+
+        <div class="container mt-5">
+
+            <!-- grid system -->
+            <div class="row py-3">
+
+                <div class="col">
+
+                    <h3 class="text-center mb-3 text-uppercase">Desenvolvimento</h3>
+
+                    <p class="text-center lead fs-4 mb-5">Bem-vindo à WebCoin, a memecoin mais épica da história! Nós somos um grupo de desenvolvedores entuziastas que decidiram criar uma moeda que é ao mesmo tempo uma paródia e uma homenagem às criptomoedas.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="row justify-content-evenly">
+                <!-- d-flex flex-wrap gap-3 justify-content-center -->
+
+
+                <div class="col-lg-4 col-md-6 d-flex justify-content-center my-3">
+                    <!-- Card Ideia -->
+                    <div class="card shadow" style="width: 18rem">
+                        <i class="bi bi-lightbulb fs-1 pt-3 text-center"></i>
+                        <div class="card-body text-center">
+                          <h5 class="card-title">Ideia!</h5>
+                          <p class="card-text py-2">Era uma noite de quinta-feira e o desenvolvedor Alexandre estava navegando pelo 'X' (antigo twiter), vendo as últimas notícias sobre criptomoedas. De repente, ele viu um meme de um gato usando óculos de sol e um cartão com a legenda "WebCoin: a moeda do futuro."</p>
+                        </div>
+                        <img src="./img/about/img1.jpeg" class="card-img-bottom" alt="..." />
+                      </div>
+
+
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 d-flex justify-content-center my-3">
+                    <!-- Card Ação -->
+                    <div class="card shadow" style="width: 18rem">
+                        <i class="bi bi-laptop fs-1 pt-3 text-center"></i>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Ação!</h5>
+                            <p class="card-text py-2">"Ele começou a trabalhar na WebCoin naquela mesma noite, criando um
+                            código básico e um site simples. No dia seguinte, ele compartilhou o link com alguns amigos e conhecidos no 'X', brincando que estava criando a "próxima grande coisa" em criptomoedas."</p>
+                        </div>
+                        <img src="./img/about/img2.jpeg" class="card-img-bottom" alt="..." />
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 d-flex justify-content-center my-3">
+                    <!-- Card Sucesso -->
+                    <div class="card shadow" style="width: 18rem">
+                        <i class="bi bi-stars fs-1 pt-3 text-center"></i>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Sucesso!</h5>
+                            <p class="card-text py-2">"Em uma semana, a WebCoin tinha uma comunidade de milhares de pessoas, todas brincando e se divertindo com a ideia de uma moeda "para nada". Alex estava surpreso e feliz com o resultado, e começou a trabalhar em atualizações e melhorias para a moeda."</p>
+                        </div>
+                        <img src="./img/about/img3.jpeg" class="card-img-bottom" alt="..." />
+                    </div>
+                    
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Seção Adquirir -->
+    <section id="adquirir">
+
+        <div class="container">
+
+            <!-- grid system -->
+            <div class="row py-2">
+
+                <div class="col text-center py-5  my-5">
+
+                    <h2 class="mb-5">Adquira WebCoin iCash na Pré-venda!</h2>
+                    <p class="lead mb-3">Entre para o futuro das criptomoedas! WebCoin iCash oferece segurança, rapidez
+                        e valorização sustentável. Não perca a oportunidade de entrar antes do mercado.</p>
+
+                    <button class="btn btn-warning btn-lg shadow" data-bs-toggle="modal"
+                        data-bs-target="#preVendaModal">Quero Participar</button>
+
+                </div>
+
+                <!-- Modal Pré-venda -->
+                <div class="modal fade" id="preVendaModal" tabindex="-1" aria-labelledby="preVendaModalLabel"
+                    aria-hidden="true">
+
+                    <div class="modal-dialog">
+
+                        <div class="modal-content">
+
+                            <div class="modal-header bg-warning">
+
+                                <h5 class="modal-title" id="preVendaModalLabel">Cadastro para Pré-venda</h5>
+
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+
+                            </div>
+
+                            <div class="modal-body">
+
+                                <form>
+                                    <div class="form-floating mb-3">
+
+                                        <input type="text" class="form-control" id="nome" placeholder=" " required>
+                                        <label for="nome" class="form-label">Nome</label>
+
+                                    </div>
+
+                                    <div class="form-floating mb-3">
+
+
+                                        <input type="email" class="form-control" id="email" required placeholder=" ">
+                                        <label for="email" class="form-label">E-mail</label>
+
+                                    </div>
+
+                                    <div class="form-floating mb-3">
+
+
+                                        <input type="number" class="form-control" id="quantidade" min="1"
+                                            placeholder=" " required>
+                                        <label for="quantidade" class="form-label">Quantidade Desejada</label>
+
+
+                                    </div>
+
+                                    <button type="submit" class="btn btn-warning">Enviar</button>
+                                </form>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Seção Bônus -->
+    <section id="bonus" class="bg-secondary-subtle py-3">
+
+        <div class="container">
+
+            <!-- grid system -->
+            <div class="row py-5 mt-3 align-items-center">
+
+                <h2 class="text-center my-5 fw-bold text-uppercase">Bônus</h2>
+
+                <div class="col-lg-6">
+
+                    <h3 class="text-center fw-bold mb-3">Ganhe WebCoin iCash <br> Grátis na Pré-venda!</h3>
+
+                    <p class="lead py-3 text-center">
+                        A WebCoin iCash está revolucionando o mundo das criptomoedas, trazendo inovação, segurança e oportunidades únicas para investidores de todos os níveis. E para comemorar o lançamento, estamos oferecendo WebCoin iCash grátis para os primeiros interessados!
+                    </p>
+
+                    <!-- Alerts -->
+                    <div class="alert alert-warning text-center shadow" role="alert">
+                        Preencha o formulário, confirme sua participação na nossa lista de pré-venda.
+                    </div>
+
+                    <div class="alert alert-warning text-center shadow" role="alert">
+                        Receba WebCoin iCash direto na sua carteira como bônus exclusivo!
+                    </div>
+
+                    <div class="alert alert-warning text-center shadow" role="alert">
+                        Aproveite essa chance e seja um dos pioneiros da WebCoin iCash. O futuro das criptomoedas começa agora!
+                    </div>                         
+                    
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <div class="container">
+                        <div class="card shadow p-4 bg-warning">
+                            <h1 class="text-center mb-4 fw-bold ">WebCoin iCash</h1>
+                            <form id="bonusForm">
+
+                                <!-- Nome Completo -->
+                                <div class="form-floating mb-3">
+
+                                    <input type="text" class="form-control" id="name" placeholder=" " required>
+                                    <label for="name" class="form-label">Nome Completo</label>
+
+                                </div>
+
+                                <!-- E-mail -->
+                                <div class="form-floating mb-3">
+
+                                    <input type="email" class="form-control" id="email" placeholder=" " required>
+                                    <label for="email" class="form-label">E-mail</label>
+
+                                </div>
+
+                                <!-- Endereço da Wallet -->
+                                <div class="form-floating mb-3">
+
+                                    <input type="text" class="form-control" id="wallet" placeholder=" " required>
+                                    <label for="wallet" class="form-label">Endereço da Wallet</label>
+
+                                </div>
+
+                                <!-- Escolha do Tipo de Bônus -->
+                                <div class="mb-3">
+                                    <label class="form-label h4">Escolha o Tipo de Bônus</label>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="bonus" id="bonus1"
+                                            value="Desconto em taxas" required checked>
+                                        <label class="form-check-label" for="bonus1">
+                                            Desconto em taxas
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="bonus" id="bonus2"
+                                            value="Tokens extras">
+                                        <label class="form-check-label" for="bonus2">
+                                            Tokens extras
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="bonus" id="bonus3"
+                                            value="Acesso antecipado a novos recursos">
+                                        <label class="form-check-label" for="bonus3">
+                                            Acesso antecipado a novos recursos
+                                        </label>
+                                    </div>
+                                </div>
+
+
+                                <!-- Como conheceu a WebCoin iCash -->
+                                <div class="form-floating mb-3">
+
+                                    <select class="form-select" aria-hidden="true"></i> id="como_conheceu">
+                                        <option selected>--- escolha ---</option>
+                                        <option>Publicidade online</option>
+                                        <option>Redes sociais</option>
+                                        <option>Indicação de amigos</option>
+                                        <option>Outro</option>
+                                    </select>
+                                    <label for="como_conheceu" class="form-label">Como conheceu a WebCoin iCash?</label>
+
+                                </div>
+
+                                <div class="form-check mb-3">
+                                    <input type="checkbox" class="form-check-input" id="terms" required>
+                                    <label class="form-check-label" for="terms">Eu aceito os <a href="#"
+                                            data-bs-toggle="modal" data-bs-target="#termsModal">termos e
+                                            condições</a></label>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary w-100">Solicitar Bônus</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Modal de Termos e Condições -->
+                <div class="modal fade" id="termsModal" tabindex="-1" aria-labelledby="termsModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header bg-warning">
+                                <h5 class="modal-title" id="termsModalLabel">Termos e Condições.</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Ao participar da promoção do WebCoin iCash, o usuário concorda com os seguintes
+                                    termos e condições. Esta promoção é válida apenas para maiores de 18 anos e está
+                                    sujeita às leis aplicáveis da jurisdição do participante. O WebCoin iCash não se
+                                    responsabiliza por qualquer erro de digitação ou informações incorretas fornecidas
+                                    pelo usuário. O bônus será creditado apenas para carteiras válidas e compatíveis com
+                                    a plataforma. O WebCoin iCash reserva-se o direito de modificar ou encerrar esta
+                                    promoção a qualquer momento sem aviso prévio. O usuário reconhece que a participação
+                                    na promoção não garante qualquer valorização do ativo recebido. Qualquer tentativa
+                                    de fraude ou uso indevido resultará na desqualificação imediata. Ao aceitar estes
+                                    termos, o usuário concorda em fornecer informações verdadeiras e corretas. Para mais
+                                    detalhes, entre em contato com nosso suporte.</p>
+                            </div>
+                            <div class="modal-footer bg-warning-subtle">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal de Sucesso -->
+                <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header bg-success">
+                                <h5 class="modal-title text-white tw-bold" id="successModalLabel">Sucesso!</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Seu bônus foi solicitado com sucesso! Fique atento ao seu e-mail para mais detalhes
+                                    em breve.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Script para Exibir o Modal de Sucesso e Limpar os Campos após envio -->
+                <script>
+                    document.getElementById('bonusForm').addEventListener('submit', function (event) {
+                        event.preventDefault();  // Impede o envio real do formulário
+
+                        // Exibe o Modal
+                        let myModal = new bootstrap.Modal(document.getElementById('successModal'));
+                        myModal.show();
+
+                        // Limpa os campos do formulário após a exibição do modal
+                        document.getElementById('bonusForm').reset();
+
+                    });
+                </script>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Seção Feedback -->
+    <section id="feedback">
+
+        <div class="container">
+
+            <!-- grid system -->
+            <div class="row py-2">
+
+                <div class="col">
+                    
+                    <div class="container">
+                        
+                        <div class="text-center">
+                            <br><br><br>
+                            <h2 class="text-uppercase">FeedBacks</h2>
+                            <h3 class="text-muted">Comentários de clientes satisfeitos</h3>
+                            <br>
+                        </div>
+
+                        <div class="row text-center">
+
+                            <div class="col-md-4">
+
+                                <img class="rounded-circle w-5" src="img/about/1.jpg" alt="..." />
+                            </div>
+
+                            <div class="col-md-4">
+
+                                <p class="text-decoration-none">
+                                <h4 class="my-3">Daniel Tavares</h4>
+                                <div class="timeline-body">
+                                    <p class="text-muted">"Foi a minha primeira CriptoMoeda, iniciei
+                                        da melhor forma. É uma moeda constante de baixa variação!"..</p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <br>
+
+
+                        <div class="row text-center">
+
+                            <div class="col-md-4">
+
+                                <img class="rounded-circle w-5" src="img/about/2.jpg" alt="..." />
+                            </div>
+
+
+
+                            <div class="col-md-4">
+
+                                <p class="text-decoration-none">
+                                <h4 class="my-3">Sophia Hellen</h4>
+                                <div class="timeline-body">
+                                    <p class="text-muted">"Essa moeda está sempre em alta, todas minhas operações foram bem sucedidas!"...</p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <br>
+
+
+
+                        <div class="row text-center">
+
+                            <div class="col-md-4">
+
+                                <img class="rounded-circle w-5" src="img/about/3.jpg" alt="..." />
+                            </div>
+
+
+
+                            <div class="col-md-4">
+
+                                <p class="text-decoration-none">
+                                <h4 class="my-3">Bruno Vicente</h4>
+
+                                <div class="timeline-body">
+                                    <p class="text-muted">"Super indico essa criptomoeda, ela é a moeda princiopal da minha carteira. Vocês precisam ter!"..</p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <br>
+
+
+                        <div class="row text-center">
+
+                            <div class="col-md-4">
+
+                                <img class="rounded-circle w-5" src="img/about/4.jpg" alt="..." />
+                            </div>
+
+
+
+                            <div class="col-md-4">
+
+                                <p class="text-decoration-none">
+                                <h4 class="my-3">Bruno Silva</h4>
+                                <div class="timeline-body">
+                                    <p class="text-muted">"Foi exelente a expreriência!"..</p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+        <br><br><br><br>
+
+
+    <!-- Seção Equipe -->
+    <section id="equipe" class="bg-secondary-subtle py-5 mt-5">
+
+        <div class="container py-3">
+
+            <!-- grid system -->
+            <div class="row py-2">
+
+                <div class="col text-center">
+
+                    <h3 class="fw-bold text-uppercase">Desenvolvedores</h3> 
+                    <br>
+
+                </div>
+            </div>
+
+
+            <div class="row justify-content-evenly">
+
+                <div class="col-lg-4 col-md-6 d-flex justify-content-center my-3">
+                    <!-- Card Dev -->
+                    <div class="card shadow" style="width: 18rem">
+                        <img src="./img/team/1.jpg" class="card-img-top" alt="..." />
+
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Pedro Alexandre</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">"Desenvolvedor/ADS"</h6>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 d-flex justify-content-center my-3">
+                    <!-- Card Dev -->
+                    <div class="card shadow" style="width: 18rem">
+                        <img src="./img/team/2.jpg" class="card-img-top" alt="..." />
+
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Leonidas França</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">"Desenvolvedor/ADS"</h6>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex justify-content-center my-3">
+                    <!-- Card Dev -->
+                    <div class="card shadow" style="width: 18rem">
+                        <img src="./img/team/3.jpg" class="card-img-top" alt="..." />
+
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Samuel Santos</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">"Desenvolvedor/ADS"</h6>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+                
+        </div>    
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4 bg-warning">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-lg-4 text-center text-lg-start">
+                    Copyright&copy; 2025 webcoin.com.br 
+                </div>
+
+                <div class="col-lg-4 text-center">
+                    <i class="bi bi-facebook  fs-2"></i>
+                    <i class="bi bi-instagram fs-2"></i>
+                    <i class="bi bi-whatsapp  fs-2"></i>
+                </div>
+
+                <div class="col-lg-4 text-center text-lg-end">
+                    <a class="link-dark text-decoration-none me-3" href="#!" data-bs-toggle="modal" data-bs-target="#termsModal">Privacy Policy</a>
+                    <a class="link-dark text-decoration-none" href="#!" data-bs-toggle="modal" data-bs-target="#termsModal">Terms of Use</a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- link bootstrap js file -->
+    <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+
+</body>
+
+</html>
